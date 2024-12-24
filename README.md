@@ -23,6 +23,7 @@
 - python manage.py shell
 
 ## Data to import
+```
 from api.models import Item
 Item.objects.create(name="Item 1", description="This is the first item.")
 Item.objects.create(name="Item 2", description="This is the second item.")
@@ -31,5 +32,6 @@ Item.objects.create(name="Item 4", description="This is the fourth item.")
 Item.objects.create(name="Item 5", description="This is the fifth item.")
 Item.objects.create(name="Item 6", description="This is the sixth item.")
 print("Sample items created successfully!")
+```
 
 
