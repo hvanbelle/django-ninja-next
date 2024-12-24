@@ -20,9 +20,10 @@
 - python manage.py createsuperuser --username admin --email admin@home.arpa
 - python manage.py runserver
 - npx create-next-app@latest ivy
+- cd ivy; npm run dev
 - python manage.py shell
 
-## Data to import
+## Data to import from python shell - python manage.py shell
 ```
 from api.models import Item
 
